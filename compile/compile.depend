@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1454676429 source:/home/parker/Desktop/git/logisim/compile/main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<stdio.h>
+
