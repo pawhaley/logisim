@@ -32,6 +32,10 @@ int instruct(string s){
         return 4;
     case 'mov':
         return 5;
+    case 'jmp':
+        return 6;
+    case 'jle':
+        return 7;
     }
     return 0;
 }
