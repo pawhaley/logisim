@@ -1,3 +1,13 @@
-12!!nul!
-0!!mov!
-
+2!!nul!
+2353!!mov!
+0!!movB
+0BBnulA
+0ABmul!
+0!!divC
+1000ACnulD
+0DBjle!
+1!Bmul!
+0!!addE
+0EAnulB
+jle!
+!

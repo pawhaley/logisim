@@ -22,6 +22,8 @@ int num(string s){
 
 int instruct(string s){
     switch (num(s)){
+    case 'nul':
+        return 0;
     case 'add':
         return 1;
     case 'sub':
@@ -36,6 +38,8 @@ int instruct(string s){
         return 6;
     case 'jle':
         return 7;
+    default:
+        cout << "error " << s << endl;
     }
     return 0;
 }
