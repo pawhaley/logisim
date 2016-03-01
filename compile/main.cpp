@@ -36,8 +36,10 @@ int instruct(string s){
         return 5;
     case 'jmp':
         return 6;
-    case 'jle':
+    case 'jlt':
         return 7;
+    case 'equ':
+        return 8;
     default:
         cout << "error " << s << endl;
     }
