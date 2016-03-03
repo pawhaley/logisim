@@ -1,6 +1,6 @@
 0!!nul!
-10!!mov!
-2!!movG
+10!!nul!
+2!!mov!
 0!!movB
 0!!nulC
 0BCnul!
@@ -30,10 +30,8 @@
 0!!nul!
 0!!nul!
 0B!nul!
-0GBmov!
-1G!setA
-4!!add!
-1B!jmpG
+4!!mov!
+1B!jmpA
 2!!add!
 0!!movB
 0!!nul!

@@ -40,6 +40,10 @@ int instruct(string s){
         return 7;
     case 'equ':
         return 8;
+    case 'set':
+        return 9;
+    case 'cat':
+        return 10;
     default:
         cout << "error " << s << endl;
     }
